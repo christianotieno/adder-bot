@@ -44,7 +44,6 @@ git clone git@github.com:christianotieno/adder-bot.git
 
 ```terminal
 bundle install
-
 ```
 
 3. Create a dedicated .env file and your own Slack API keys to the file as follows:
@@ -55,10 +54,10 @@ SLACK_API_TOKEN="Your Slack API Keys Here!"
 
 4. Open slacka and sign in to any of your workspace.
 
-5. Run the bot 
+5. Run the bot.
 
 ```terminal
-=foreman start
+foreman start
 ```
 
 ## Run tests
